@@ -25,7 +25,6 @@ public class NotificationAPI {
         return new ResponseEntity<>(notificationService.getUnreadNotifications(userId), HttpStatus.OK);
     }
 
-    @CrossOrigin(value = "http://localhost:5173")
     @PutMapping("/read/{id}")
     public ResponseEntity<ResponseDTO> readNotification(@PathVariable Long id) throws JobPortalException {
         notificationService.readNotification(id);

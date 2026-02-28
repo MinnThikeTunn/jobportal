@@ -1,5 +1,4 @@
 package com.jobportal.service;
-
 import com.jobportal.dto.LoginDTO;
 import com.jobportal.dto.ResponseDTO;
 import com.jobportal.dto.UserDTO;
